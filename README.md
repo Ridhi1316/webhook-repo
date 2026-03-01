@@ -6,8 +6,8 @@ This project captures GitHub repository events (Push, Pull Request, and Merge) u
 
 The system consists of two repositories:
 
-- **action-repo** → Dummy GitHub repository that triggers webhook events
-- **webhook-repo** → Flask application that receives webhook payloads, stores data in MongoDB, and renders UI
+- **action-repo** - Dummy GitHub repository that triggers webhook events
+- **webhook-repo** - Flask application that receives webhook payloads, stores data in MongoDB, and renders UI
 
 ---
 
