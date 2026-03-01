@@ -8,21 +8,7 @@ The system consists of two repositories:
 
 - **action-repo** - Dummy GitHub repository that triggers webhook events
 - **webhook-repo** - Flask application that receives webhook payloads, stores data in MongoDB, and renders UI
-
 ---
-
-## Architecture
-GitHub (action-repo)
-│
-│ Webhook (Push / Pull Request / Merge)
-▼
-Flask Webhook Receiver (/webhook)
-│
-▼
-MongoDB
-│
-▼
-UI (Polling every 15 seconds via /events API)
 
 ---
 
